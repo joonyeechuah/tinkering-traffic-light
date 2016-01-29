@@ -25,7 +25,7 @@ void loop() {
   delay(500);
   digitalWrite(LED_3, LOW);
   delay(500);
-digitalWrite(LED_1, HIGH);
+  digitalWrite(LED_1, HIGH);
   delay(500);
   digitalWrite(LED_1, LOW);
   delay(500);
