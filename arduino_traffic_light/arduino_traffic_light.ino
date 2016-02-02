@@ -106,13 +106,13 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  tone(S_1, NOTE_B2);
+  tone(S_1, NOTE_B4);
   delay(500);
   noTone(S_1);
-  tone(S_1, NOTE_A2);
+  tone(S_1, NOTE_A4);
   delay(500);
   noTone(S_1);
-  tone(S_1, NOTE_G2);
+  tone(S_1, NOTE_G4);
   delay(500);
   noTone(S_1);
   
