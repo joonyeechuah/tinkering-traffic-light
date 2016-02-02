@@ -107,14 +107,17 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   tone(S_1, NOTE_B4);
-  delay(500);
+  delay(400);
   noTone(S_1);
+  delay(100);
   tone(S_1, NOTE_A4);
-  delay(500);
+  delay(400);
   noTone(S_1);
+  delay(100);
   tone(S_1, NOTE_G4);
-  delay(500);
+  delay(400);
   noTone(S_1);
+  delay(100);
   
   digitalWrite(LED_1, HIGH);
   delay(500);
@@ -139,30 +142,30 @@ void loop() {
   digitalWrite(LED_3, HIGH);
   delay(250);
   digitalWrite(LED_3, LOW);
-  delay(10);
+  delay(25);
   digitalWrite(LED_3, HIGH);
   delay(250);
   digitalWrite(LED_3, LOW);
-  delay(10);
+  delay(25);
   digitalWrite(LED_3, HIGH);
   delay(250);
   digitalWrite(LED_3, LOW);
-  delay(10);
+  delay(25);
   digitalWrite(LED_3, HIGH);
   delay(250);
   digitalWrite(LED_3, LOW);
   digitalWrite(LED_2, HIGH);
   delay(250);
   digitalWrite(LED_2, LOW);
-  delay(10);
+  delay(25);
   digitalWrite(LED_2, HIGH);
   delay(250);
   digitalWrite(LED_2, LOW);
-  delay(10);
+  delay(25);
   digitalWrite(LED_2, HIGH);
   delay(250);
   digitalWrite(LED_2, LOW);
-  delay(10);
+  delay(25);
   digitalWrite(LED_2, HIGH);
   delay(250);
   digitalWrite(LED_2, LOW);
